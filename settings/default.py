@@ -234,11 +234,13 @@ CSP_IMG_SRC = ("'self'", 'http://statse.webtrendslive.com',
                'https://statse.webtrendslive.com',
                'http://www.gravatar.com',
                'https://i1.wp.com',
-               'https://secure.gravatar.com',)
+               'https://secure.gravatar.com',
+               'https://videos-cdn.mozilla.net')
 CSP_SCRIPT_SRC = ("'self'", 'http://statse.webtrendslive.com',
                   'https://statse.webtrendslive.com',
                   'https://browserid.org',
-                  'https://login.persona.org',)
+                  'https://login.persona.org',
+                  'https://videos-cdn.mozilla.net')
 CSP_FRAME_SRC = ("'self'", 'https://browserid.org',
                  'https://login.persona.org',)
 CSP_FONT_SRC = ("'self'", 'https://www.mozilla.org')
