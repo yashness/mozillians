@@ -244,6 +244,7 @@ CSP_SCRIPT_SRC = ("'self'", 'http://statse.webtrendslive.com',
 CSP_FRAME_SRC = ("'self'", 'https://browserid.org',
                  'https://login.persona.org',)
 CSP_FONT_SRC = ("'self'", 'https://www.mozilla.org')
+CSP_OBJECT_SRC = ("'self'", 'https://videos-cdn.mozilla.net')
 CSP_REPORT_ONLY = True
 CSP_REPORT_URI = '/csp/report'
 
