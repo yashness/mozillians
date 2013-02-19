@@ -186,8 +186,7 @@ class ProfileForm(BaseProfileForm):
 
 class RegisterForm(BaseProfileForm):
     optin = forms.BooleanField(
-        label=_lazy(u"I'm okay with you handling this info as you "
-                    u"explain in Mozilla's privacy policy."),
+        label= mark_safe(u'I\'m okay with you handling this info as you explain in Mozilla\'s <a href="http://www.mozilla.org/en-US/privacy-policy.html" target="_blank">Privacy Policy</a>'),
         widget=forms.CheckboxInput(attrs={'class': 'checkbox'}),
         required=True)
 
